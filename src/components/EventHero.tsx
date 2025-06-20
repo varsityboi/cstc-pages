@@ -31,9 +31,15 @@ const EventHero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="animate-fade-in">
-          <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-8">
+          <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-4">
             <Trophy className="w-4 h-4 text-yellow-400 mr-2" />
             <span className="text-sm text-white/90">Event Completed Successfully</span>
+          </div>
+          
+          {/* College and Club Info */}
+          <div className="mb-6">
+            <p className="text-lg md:text-xl text-purple-200 mb-2">South Asian University</p>
+            <p className="text-md md:text-lg text-blue-200">CSTC Tech Club Presents</p>
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
@@ -51,7 +57,7 @@ const EventHero = () => {
             </div>
             <div className="flex items-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
               <MapPin className="w-5 h-5 text-pink-300 mr-3" />
-              <span className="text-white">San Francisco, CA</span>
+              <span className="text-white">New Delhi, India</span>
             </div>
             <div className="flex items-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
               <Users className="w-5 h-5 text-blue-300 mr-3" />

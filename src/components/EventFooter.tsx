@@ -10,10 +10,14 @@ const EventFooter = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Thank You for Being Part of History
           </h2>
-          <p className="text-xl text-white/70 max-w-3xl mx-auto">
+          <p className="text-xl text-white/70 max-w-3xl mx-auto mb-4">
             TechFest 2024 was more than an event—it was a catalyst for innovation, 
             collaboration, and the future of technology.
           </p>
+          <div className="text-lg text-purple-200">
+            <p>Organized by <span className="font-semibold">CSTC Tech Club</span></p>
+            <p>South Asian University, New Delhi</p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -30,7 +34,7 @@ const EventFooter = () => {
               <MapPin className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-white font-semibold mb-2">Location</h3>
-            <p className="text-white/70">Moscone Center<br />San Francisco, CA</p>
+            <p className="text-white/70">South Asian University<br />New Delhi, India</p>
           </div>
 
           <div className="text-center">
@@ -38,7 +42,7 @@ const EventFooter = () => {
               <Mail className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-white font-semibold mb-2">Email</h3>
-            <p className="text-white/70">info@techfest2024.com</p>
+            <p className="text-white/70">cstc@techfest2024.com</p>
           </div>
 
           <div className="text-center">
@@ -46,13 +50,13 @@ const EventFooter = () => {
               <Phone className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-white font-semibold mb-2">Contact</h3>
-            <p className="text-white/70">+1 (555) 123-4567</p>
+            <p className="text-white/70">+91 (11) 123-4567</p>
           </div>
         </div>
 
         <div className="text-center border-t border-white/10 pt-8">
           <p className="text-white/50">
-            © 2024 TechFest. All rights reserved. | Designed with innovation in mind.
+            © 2024 CSTC Tech Club, South Asian University. All rights reserved. | Designed with innovation in mind.
           </p>
         </div>
       </div>
