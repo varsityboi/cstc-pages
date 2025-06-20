@@ -14,7 +14,7 @@ const EventHero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-pink-900/20 to-blue-900/20">
+      <div className="absolute inset-0 bg-gradient-to-br from-teal-900/20 via-orange-900/20 to-slate-900/20">
         <div 
           className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=6052&q=80')] bg-cover bg-center opacity-10"
           style={{ transform: `translateY(${scrollY * 0.5}px)` }}
@@ -23,9 +23,9 @@ const EventHero = () => {
 
       {/* Floating Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+        <div className="absolute top-20 left-20 w-72 h-72 bg-teal-500/10 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
       </div>
 
       {/* Content */}
@@ -38,11 +38,11 @@ const EventHero = () => {
           
           {/* College and Club Info */}
           <div className="mb-6">
-            <p className="text-lg md:text-xl text-purple-200 mb-2">South Asian University</p>
-            <p className="text-md md:text-lg text-blue-200">CSTC Tech Club Presents</p>
+            <p className="text-lg md:text-xl text-teal-200 mb-2">South Asian University</p>
+            <p className="text-md md:text-lg text-orange-200">CSTC Tech Club Presents</p>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-teal-200 to-orange-200 bg-clip-text text-transparent">
             TechFest 2024
           </h1>
           
@@ -52,15 +52,15 @@ const EventHero = () => {
           
           <div className="flex flex-wrap justify-center gap-6 mb-12">
             <div className="flex items-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
-              <Calendar className="w-5 h-5 text-purple-300 mr-3" />
+              <Calendar className="w-5 h-5 text-teal-300 mr-3" />
               <span className="text-white">March 15-17, 2024</span>
             </div>
             <div className="flex items-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
-              <MapPin className="w-5 h-5 text-pink-300 mr-3" />
+              <MapPin className="w-5 h-5 text-orange-300 mr-3" />
               <span className="text-white">New Delhi, India</span>
             </div>
             <div className="flex items-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
-              <Users className="w-5 h-5 text-blue-300 mr-3" />
+              <Users className="w-5 h-5 text-cyan-300 mr-3" />
               <span className="text-white">5,000+ Attendees</span>
             </div>
           </div>
